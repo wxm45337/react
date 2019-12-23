@@ -26,6 +26,9 @@ export default class TodoList extends Component<{},State> {
         console.log('componentWillUpdate---',nextProps,state)
         return true;
     }
+    componentWillMount(){
+        console.log('todoList-------componentWillMount -------')
+    }
     componentWillUpdate (nextProps: any, state: State) {
         console.log('componentWillUpdate---',nextProps,state)
     }
